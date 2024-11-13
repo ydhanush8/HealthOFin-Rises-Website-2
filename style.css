@@ -1,0 +1,109 @@
+body {
+    background-color: rgba(248,246,243,255);
+    color: blue;
+}
+
+.logo-div{
+    position: absolute;
+    left: 40px;
+}
+
+.logo{
+
+    background: none;
+    border: none;
+}
+
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.nav-items{
+    display: flex;
+    list-style: none;
+}
+
+.items{
+    text-decoration: none;
+    margin: 10px;
+    color: blue;
+    font-size: larger;
+    font-weight: 900;
+}
+
+.login{
+    position: absolute;
+    right: 40px;
+}
+
+.login-btn{
+    padding: 6px;
+    border-radius: 10px;
+    background: none;
+    border: none;
+    color: blue;
+    font-size: large;
+    font-weight: 600;
+}
+
+.main-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-part{
+    margin: 30px;
+}
+
+.left-part-top-section{
+    margin-left: 10px;
+}
+
+.left-part-heading{
+    font-size: 60px;
+}
+
+
+.right-part{
+    margin: 30px;
+}
+
+.free-consultation-btn{
+    padding: 10px;
+    padding-inline: 50px;
+    border-radius: 15px;
+    border-color: blue;
+    color: blue;
+    background: none;
+}
+
+.content-blocks{
+    display: flex;
+    margin-top: 90px;
+}
+
+.left-inner-part{
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+.right-inner-part{
+    margin: 10px;
+    padding: 15px;
+    border: 2px solid blue;
+    border-radius: 20px;
+}
+
+.inner-btn{
+    padding: 3px;
+    border-radius: 10px;
+    background: none;
+    color: blue;
+    border: none;
+}
